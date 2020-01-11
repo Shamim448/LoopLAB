@@ -1,0 +1,67 @@
+body {
+  color: #fff;
+  background: #333;
+}
+
+.navbar {
+  background: #292b2c;
+  opacity: 0.7;
+  border-bottom: 3px solid #008ed6;
+}
+
+#home-section {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/home.jpg") center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/home.jpg") center/cover no-repeat fixed;
+}
+
+#home-section .inner-home {
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+
+#home-section .fa {
+  font-size: 30px;
+  color: #008ed6;
+  background: #fff;
+  border-radius: 5px;
+}
+
+#home-section .card-form {
+  opacity: 0.7;
+}
+
+#explore-main-section {
+  background: #f8f9fa;
+}
+
+#explore-main-section .fa {
+  font-size: 30px;
+  color: #ffff;
+  background: #333;
+  border-radius: 5px;
+}
+
+#create-main-section .fa {
+  font-size: 30px;
+  color: #008ed6;
+  background: #fff;
+  border-radius: 5px;
+}
+
+#share-main-section {
+  background: #f8f9fa;
+}
+
+#share-main-section .fa {
+  font-size: 30px;
+  color: #ffff;
+  background: #333;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  #home-section .display-4 {
+    font-size: 36px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
